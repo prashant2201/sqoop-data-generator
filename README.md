@@ -8,14 +8,14 @@ Compilation
 
 Project is using maven without any special dependencies, so simply type:
 
-  mvn package
+    mvn package
 
 Usage
 -----
 
 Run the jar as an hadoop application:
   
-  hadoop jar sqoop-data-generator-1.0.jar net.jarcec.sqoop.data.gen.Generator PARAMETERS
+    hadoop jar sqoop-data-generator-1.0.jar net.jarcec.sqoop.data.gen.Generator PARAMETERS
 
 The generation tool expects 4 arguments:
 
@@ -26,7 +26,7 @@ The generation tool expects 4 arguments:
 
 Example:
  
-  hadoop jar sqoop-data-generator-1.0.jar net.jarcec.sqoop.data.gen.Generator /user/jarcec/data id,i,f,s50 10 100
+    hadoop jar sqoop-data-generator-1.0.jar net.jarcec.sqoop.data.gen.Generator /user/jarcec/data id,i,f,s50 10 100
 
 Supported column types:
 
